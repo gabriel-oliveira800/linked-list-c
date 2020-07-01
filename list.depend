@@ -1,14 +1,14 @@
 # depslib dependency file v1.0
-1593622575 source:c:\users\gabri\documents\projects c\list\main.c
+1593625742 source:c:\users\gabri\documents\projects c\list\main.c
 	<stdio.h>
 	<stdlib.h>
 	"list.h"
 
-1593622374 c:\users\gabri\documents\projects c\list\list.h
+1593625571 c:\users\gabri\documents\projects c\list\list.h
 	<stdio.h>
 	<stdlib.h>
 
-1593622609 source:c:\users\gabri\documents\projects c\list\list.c
+1593625820 source:c:\users\gabri\documents\projects c\list\list.c
 	<stdio.h>
 	<stdlib.h>
 	"list.h"

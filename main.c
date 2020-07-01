@@ -4,8 +4,12 @@
 
 int main()
 {
-    List* post = init();
+    List* quart = init();
 
-    printf("%p\n", post);
+    for(int i = 0; i <= 20; i++){
+        add(&quart, i, i* 2);
+    }
+
+    toString(quart);
     return 0;
 }

@@ -2,12 +2,14 @@
 #include <stdlib.h>
 #include "list.h"
 
-struct pos {
+struct pos
+{
     int x;
     int y;
 };
 
-struct list_object {
+struct list_object
+{
     Pos* data;
     struct list_object* prox;
 };
@@ -15,13 +17,33 @@ struct list_object {
 typedef struct pos Pos;
 typedef struct list_object List;
 
-List* init(){
+List* init()
+{
     return NULL;
 }
 
-void add(List* my_list, int* x, int* y){
+void add(List** my_list, int x, int y)
+{
+    List* node = (List*) malloc(sizeof(List));
+    Pos* posicao = (Pos*) malloc(sizeof(Pos));
 
+    if(node != NULL && posicao != NULL)
+    {
+        posicao->x = x;
+        posicao->y = y;
+
+        node->data = posicao;
+
+        node->prox = *my_list;
+        *my_list = node;
+    }
 }
 
-void addAll(List* my_list, Pos* data){
+void toString(List* data)
+{
+    while(data != NULL)
+    {
+        printf("x: %d - y: %d\n", data->data->x, data->data->y);
+        data = data->prox;
+    }
 }
