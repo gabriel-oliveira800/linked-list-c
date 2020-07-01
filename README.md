@@ -43,4 +43,5 @@ Using:
    ```
    * In the bin / Debug folder is .exe, you can run it to see the final results.
    
-   |![Result](linked-list-c/screenshots/result.png)|
+   ![Result](https://github.com/gabrielscorehero/linked-list-c/blob/master/screenshots/result.png)
+
