@@ -41,3 +41,6 @@ Using:
       return 0;
    }
    ```
+   * In the bin / Debug folder is .exe, you can run it to see the final results.
+   
+   |![Result](list/screenshots/result.png)|
