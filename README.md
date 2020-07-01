@@ -43,4 +43,4 @@ Using:
    ```
    * In the bin / Debug folder is .exe, you can run it to see the final results.
    
-   |![Result](list/screenshots/result.png)|
+   |![Result](linked-list-c/screenshots/result.png)|
